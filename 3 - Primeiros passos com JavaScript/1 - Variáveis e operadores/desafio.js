@@ -17,5 +17,6 @@ let gasol = dist / consumo
 /* Segundo passo: multiplicar a quantidade de litros pelo preço de cada litro. */
 let preco = gasol * comb
 /* Terceiro passo: imprimir o resultado na tela. */
-console.log('Você vai gastar ')
-console.log(preco)
+/* Bônus : arredondar o valor convertendo-o para texto. */
+console.log('Você vai gastar ');
+console.log(preco.toFixed(2));
