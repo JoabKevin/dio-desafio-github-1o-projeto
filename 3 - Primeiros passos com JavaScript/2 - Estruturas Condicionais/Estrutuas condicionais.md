@@ -19,3 +19,30 @@ Existem alguns tipos de variáveis, como inteiros e booleanos. O booleano não �
     const numeroPar = numero % 2
     console.log(numeropar)
 </code>
+
+## Como usar a estrutura 'if':
+
+<code>
+    if () {
+
+    } else {
+
+    }
+</code>
+
+### Inversão de valor booleano
+
+Em um teste lógico, para expressar negação, use "!" antes do valor para invertê-lo.
+Exemplo: !numeroPar
+
+### Aninhamento de if..else
+
+<code>
+    if (numero === 0) {
+        console.log('O número é inválido')
+    } else if (numeroDivide5) {
+        console.log('sim')
+    } else {  
+        console.log('Nope')
+    }
+</code>
